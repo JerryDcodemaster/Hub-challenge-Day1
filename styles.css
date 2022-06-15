@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    flex-wrap: wrap;
+    top: 130px;
+    left: 80px;
+    border-radius: 200px;
+}
+
+.card {
+    position: relative;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    overflow: hidden;
+    height: 450px;
+    width: 250px;
+}
+
+#last {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(12, 74, 77);
+    color: #fff;
+}
+
+#first {
+    border-bottom-left-radius: 5px;    
+    border-top-left-radius: 5px; 
+    background-color: rgba(199, 129, 0, 0.774);   
+    color: #fff;
+}
+
+#second {
+    background-color: rgba(5, 105, 109, 0.877);
+    color: #fff;
+}
+
+.icon1 {
+    border-radius: 50%;
+    background-color: rgba(240, 170, 39, 0.877); 
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.icon1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.icon2 {
+    border-radius: 50%;
+    background-color: rgba(11, 158, 163, 0.877); 
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 0px;
+}
+
+.icon2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.icon3 {
+    border-radius: 50%;
+    background-color: rgb(12, 107, 112); 
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.icon3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: -15px;
+    padding-left: 35px;
+    font-size: 25px;
+}
+
+header h1  {
+    font-size: 2.5rem;
+    margin: 30px 20px;
+    text-transform: uppercase;
+}
+
+.text {
+    margin: 10px 30px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    margin: 45px 25px;
+    /* left: 70px; */
+    width: 20rem;
+    height: 5px;
+}
+
+.btn button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-style: none;
+    font-weight: 400;
+}
+
+.big1{
+    color: rgba(199, 129, 0, 0.774);
+}
+
+.big2{
+    color: rgba(5, 105, 109, 0.877);
+}
+
+.big3{
+    color: rgb(12, 74, 77);
+}
+
+.btn button:hover {
+    transition: 0.5s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.big1:hover {
+    color: #fff;
+    background-color: rgba(199, 129, 0, 0.774);
+}
+
+.big2:hover {
+    color: #fff;
+    background-color: rgba(5, 105, 109, 0.877);
+}
+
+.big3:hover {
+    color: #fff;
+    background-color: rgb(12, 74, 77);
+}
